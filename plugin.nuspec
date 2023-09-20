@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2013/05/nuspec.xsd">
+  <metadata>
+    <id>com.castsoftware.labs.cobol.linkmovedata</id>
+    <version>1.0.2</version>
+    <title>Link COBOL Data items from MOVE statements</title>
+    <authors>CAST Labs</authors>
+    <owners>CAST</owners>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <licenseUrl>https://help.castsoftware.com/hc/en-us/articles/212612648-AIP-Extension-License</licenseUrl>
+	<iconUrl>https://raw.githubusercontent.com/CAST-Extend/com.castsoftware.labs.cobol.linkmovedata/main/com.castsoftware.labs.cobol.linkmovedata.png</iconUrl>
+    <projectUrl>https://github.com/CAST-Extend/com.castsoftware.labs.cobol.linkmovedata/wiki</projectUrl>
+    <description>This extension helps better track the flow of data in a Cobol program by creating a link between the Cobol Data items involved in a MOVE statement.</description>
+    <releaseNotes>https://github.com/CAST-Extend/com.castsoftware.labs.cobol.linkmovedata/wiki#version-100-release-notes</releaseNotes>
+    <tags>CAIP8.3.x Mainframe Cobol Data CSS</tags>
+    <dependencies>
+      <dependency id="CAIP" version="8.3.52" />
+        <dependency id="com.castsoftware.mainframe" version="1.1.3-funcrel" />
+      </dependencies>
+  </metadata>
+  <files>
+    <file src="**"  exclude="test\*" />
+  </files>
+</package>
